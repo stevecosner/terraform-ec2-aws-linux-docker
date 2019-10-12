@@ -1,4 +1,4 @@
-
+# Replace ssh private key file on this line below (private_key = "${file("~/.ssh/id_rsa_msa")}") with your file location.
 
 provider "aws" {
   access_key = "${var.access_key}"
